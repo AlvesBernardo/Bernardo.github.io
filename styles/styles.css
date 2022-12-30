@@ -1,28 +1,132 @@
-#idPic {
-    width: 100%;
-    height: 100%;
+* {
+  margin: 0;
+}
+body {
+  background: #1E1F25;
+}
+#content{
+
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+}
+
+/* nav bar */
+header {
+  grid-column: 1/7;
+  justify-content: center;
+  display: flex;
+}
+
+.navBar {
+  grid-column: 3/5;
+  display: flex;
+}
+.navBar ul{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  max-width: 1000px;
+  justify-content: space-between;
+  text-align: center;
+
+}
+.navBar li {
+  padding: 1rem 2rem 1.15rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ebebeb;
+  list-style-type: none;
+  min-width: 80px;
+  margin: auto;
+}
+
+.navBar a {
+  color: #ebebeb;
+}
+
+.navBar li:hover {
+  background-image: url('https://scottyzen.sirv.com/Images/v/button.png');
+  background-size: 100% 100%;
+  color: #27262c;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 #ef816c;
+  font-weight: bold;
+}
+.navBar li:active {
+  transform: translateY(4px);
+}
+
+@keyframes spring {
+  15% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.2, 1.1);
   }
-  
-  .bg-black {
-    background: #000;
+  40% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(0.95, 0.95);
   }
-  
-  .skill-block {
-    width: 30%;
+  75% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.05, 1);
   }
-  
-  @media (min-width: 991px) and (max-width:1200px) {
-    .skill-block {
-      padding: 32px !important;
-    }
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1, 1);
   }
-  
-  @media (min-width: 1200px) {
-    .skill-block {
-      padding: 56px !important;
-    }
-  }
-  
-  body {
-    background-color: #eeeeee;
-  }
+}
+
+/* about me */
+
+#me {
+  display: flex;
+  grid-column: 2/5;
+}
+#aboutMe {
+  grid-column: 2/6;
+  display: flex;
+  background-color: #FFFFFF;
+  border-radius: 2%;
+  height: 35vh;
+  margin: 20vh;
+  box-shadow: 5px 10px #888888
+
+}
+
+#aboutMe  p {
+  margin-top: 1rem;
+  width: 100%;
+}
+.img {
+  display: flex;
+  grid-column: 6/7;
+}
+
+.imgMe {
+  height: 10vw;
+  margin-left: 52vw;
+
+  margin-top: 7vw;
+
+}
+
+.contentAboutMe {
+  display: flex;
+  grid-column: 2/6;
+  background-color: #FFFFFF;
+  border-radius: 2%;
+}
+
+
+/* download page*/
+#donwloadPage > *{
+  color: white;
+}
+
+.img {
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
+}
+
+.contentDow {
+  margin-top: 2vw;
+}

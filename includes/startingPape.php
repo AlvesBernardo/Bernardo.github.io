@@ -1,34 +1,35 @@
-<h1>Anout me </h1>
+<section id="me">
 
-<div class="container mt-5 mb-5">
-            <div class="row no-gutters">
-                <div class="col-md-4 col-lg-4"><img id="idPic" src="https://i.imgur.com/aCwpF7V.jpg"></div>
-                <div class="col-md-8 col-lg-8">
-                    <div class="d-flex flex-column">
-                        <div class="d-flex flex-row justify-content-between align-items-center p-5 bg-dark text-white">
-                            <h3 class="display-5">Bernardo Correia Alves</h3><i class="fa fa-facebook"></i><i class="fa fa-google"></i><i class="fa fa-youtube-play"></i><i class="fa fa-dribbble"></i><i class="fa fa-linkedin"></i></div>
-                        <div class="p-3 bg-black text-white">
-                            <h6>Full stack Developer &amp; Networking. Age 21 Email Bernardo.correia.alves@studen.nhlstende.com Studen Number : </h6>
-                        </div>
-                        <div class="d-flex flex-row text-white">
-                            <div class="p-4 bg-primary text-center skill-block">
-                                <h4>90%</h4>
-                                <h6>PHP</h6>
-                            </div>
-                            <div class="p-3 bg-success text-center skill-block">
-                                <h4>70%</h4>
-                                <h6>Jquery</h6>
-                            </div>
-                            <div class="p-3 bg-warning text-center skill-block">
-                                <h4>80%</h4>
-                                <h6>JavaScript</h6>
-                            </div>
-                            <div class="p-3 bg-danger text-center skill-block">
-                                <h4>75%</h4>
-                                <h6>Html</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="aboutMe">
+        <p>My name is Bernardo Alves I am 21 years old. Born in Portugal Mirandela and moved to Luxembourg when I was
+            6. </p>
+        <p> Student Number: </p>
+        <p> Email: Bernardo.correia.alves@student.nhlstenden.com</p>
+
+    </section>
+    <div class="img">
+    <img src="./img/me.jpeg" alt="portrait of me" class="imgMe">
+    </div>
+
+    <section class="contentAboutMe">
+        <h3> Site Explanation</h3>
+          <p> Professional Skills exam
+              First page you will find the reflection about myself a bit of content about myeslef as well. Then on the files
+              page you will be able to find the documents needed to pass professional skills. If you can not download any of the files
+              make sure to send me a mail. As their might have happened a bug.
+          </p>
+        <h3>Reflection post</h3>
+        <p>If I reflect on period 1 I was expeting more of me. I was kinda sad that I was not able to pass php exam.
+        Personally, I need to start investing more time into Css as it where I lack the most. This now leeds to me have to pass 2 exams insted of only 1 in period 2
+        Something I know I can do.</p>
+        Overall I am really happy with my choice of coming to NHL Stenden. I enjoy the teachers I enjoy the university. As mention before
+        this for me is just a prepartion for my master in Networking. I have a lot of prior knwolege in what we are learing, this helps me take things easier
+        I was looking forward for the networking class and the upcoming JAVA ones are going to be fun
+        <p>Study progress has been better in period 2. I have made every assigment on week and on time. Project 1 has been passed with 8.0.
+        Information management passed.</p>
+        <p>I will definitely continue with my studies here in NHL Stenden. I still believe this was the choice to make after everything</p>
+
+
+    </section>
+
+</section>
