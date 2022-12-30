@@ -1,5 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 * {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.8px;
 }
 body {
   background: #1E1F25;
@@ -79,17 +83,28 @@ header {
 /* about me */
 
 #me {
-  display: flex;
-  grid-column: 2/5;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
 }
 #aboutMe {
-  grid-column: 2/6;
+  grid-column: 2/5;
   display: flex;
   background-color: #FFFFFF;
   border-radius: 2%;
   height: 35vh;
   margin: 20vh;
-  box-shadow: 5px 10px #888888
+  flex-direction: column;
+  box-shadow: 5px 10px #888888;
+
+}
+
+.imgOfMe {
+  display: flex;
+  grid-column: 5/6;
+  justify-content: center;
+  /* text-align: center; */
+  align-items: center;
+
 
 }
 
@@ -99,16 +114,13 @@ header {
 }
 .img {
 
-
   margin-top: 1vw;
   margin-bottom: 1vw;
 }
 
 .imgMe {
   height: 10vw;
-  margin-left: 52vw;
 
-  margin-top: 7vw;
 
 }
 
@@ -117,10 +129,22 @@ header {
   grid-column: 2/6;
   background-color: #FFFFFF;
   border-radius: 2%;
+  flex-direction: column;
+}
+.contentAboutMe > h3 {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  font-size: 1.7vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.contentAboutMe > p {
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 
-/* download page*/
+  /* download page*/
 .idDown {
   text-align: center;
   font-size: 3vw;
