@@ -42,6 +42,7 @@ header {
 
 .navBar a {
   color: #ebebeb;
+  font-size: 2vw;
 }
 
 .navBar li:hover {
@@ -97,8 +98,10 @@ header {
   width: 100%;
 }
 .img {
-  display: flex;
-  grid-column: 6/7;
+
+
+  margin-top: 1vw;
+  margin-bottom: 1vw;
 }
 
 .imgMe {
@@ -123,6 +126,7 @@ header {
   font-size: 3vw;
   display: flex;
   grid-column: 3/5;
+  justify-content: center;
 
 }
 
@@ -130,6 +134,7 @@ header {
   font-size: 1vw;
   display: flex;
   grid-column: 3/5;
+  justify-content: center;
 }
 #donwloadPage {
   display: grid;
@@ -145,5 +150,10 @@ header {
   display: flex;
   grid-column: 2/6;
   background-color: #B5B6BC;
-  border-radius: 2%;
+  box-shadow: 5px 10px #CBCCD2;
+  border-radius: 8px;
+  flex-direction: column;
+}
+.idOfType {
+  text-align: center;
 }

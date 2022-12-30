@@ -1,31 +1,45 @@
+<script>
+
+    //preparing the jquery
+    //with this script you can donwload the menu version of the pdf. If this would be html you could change the file you are downloading.
+    $(document).ready(function () {
+        $('img').click(function (e) {
+            e.preventDefault();  //stop the browser from following
+            var alt = $(this).attr("alt");
+
+            window.location.href = alt; //download the file
+        });
+    });
+
+</script>
+
 <section id="donwloadPage">
 
 
     <h1 class="idDown">Contents to download</h1>
 
     <div class="text">
-    <p>In this page we can find useful documents to help my assessment</p>
+        <p>In this page we can find useful documents to help my assessment</p>
     </div>
-
 
 
     <?php
 
-        $directory = "./includes/files/portfolio";
+    $directory = "./includes/files/portfolio";
 
-        $workingDir = opendir($directory);
+    $workingDir = opendir($directory);
 
-        echo "<div class='contentDow'>";
-        echo "<h3>Portfolio 2022/2023</h3>";
-        while ($curFile = readdir($workingDir)) {
-             if (substr($curFile, 0, 1) == '.') {
-            }else {
-                 echo "<p>".$curFile . "</p><br />";
-                 echo '<img src="./img/files.png" width="200" alt="' . $curFile . '" class="img">';
-                 echo '<p><a href="index.php?path=includes/files/portfolio=' . urlencode($curFile) . '">Download</a></p>';
-             }
+    echo "<div class='contentDow'>";
+    echo "<h3 class='idOfType'>Portfolio 2022/2023</h3>";
+    while ($curFile = readdir($workingDir)) {
+        if (substr($curFile, 0, 1) == '.') {
+        } else {
+            echo "<p>" . $curFile . "</p><br />";
+            echo '<img src="./img/files.png" width="80" alt="'. $directory."/" . $curFile . '" class="img">';
+
         }
-        echo "</div>";
+    }
+    echo "</div>";
     ?>
 
 
@@ -38,13 +52,13 @@
     $workingDir = opendir($directory);
 
     echo "<div class='contentDow'>";
-    echo " <h3>Feedback Form Period 1 and Period 2</h3>";
+    echo " <h3 class='idOfType'>Feedback Form Period 1 and Period 2</h3>";
     while ($curFile = readdir($workingDir)) {
         if (substr($curFile, 0, 1) == '.') {
-        }else {
-            echo "<p>".$curFile . "</p><br />";
-            echo '<img src="./img/files.png" width="200" alt="' . $curFile . '" class="img">';
-            echo '<p><a href="index.php?path=includes/files/feedback1And2=' . urlencode($curFile) . '">Download</a></p>';
+        } else {
+            echo "<p>" . $curFile . "</p><br />";
+            echo '<img src="./img/files.png" width="80" alt="'. $directory."/"  . $curFile . '" class="img">';
+
         }
     }
     echo "</div>";
@@ -59,15 +73,18 @@
     $workingDir = opendir($directory);
 
     echo "<div class='contentDow Plan'>";
-    echo "<h3>Plan of approach</h3>";
+    echo "<h3 class='idOfType'>Plan of approach</h3>";
+    echo "<div class='subDiv'>";
     while ($curFile = readdir($workingDir)) {
         if (substr($curFile, 0, 1) == '.') {
-        }else {
-            echo "<p>".$curFile . "</p><br />";
-            echo '<img src="./img/files.png" width="200" alt="' . $curFile . '" class="img">';
-            echo '<p><a href="index.php?path=includes/files/PlanOfApproach=' . urlencode($curFile) . '">Download</a></p>';
+        } else {
+
+            echo "<p>" . $curFile . "</p><br />";
+            echo '<img src="./img/files.png" width="80" alt="' . $directory."/" . $curFile . '" class="img">';
+
         }
     }
+    echo "</div>";
     echo "</div>";
     ?>
 
@@ -80,13 +97,13 @@
     $workingDir = opendir($directory);
 
     echo "<div class='contentDow Plan'>";
-    echo " <h3>Presentation</h3>";
+    echo " <h3 class='idOfType'>Presentation</h3>";
     while ($curFile = readdir($workingDir)) {
         if (substr($curFile, 0, 1) == '.') {
-        }else {
-            echo "<p>".$curFile . "</p><br />";
-            echo '<img src="./img/files.png" width="200" alt="' . $curFile . '" class="img"><br>';
-            echo '<p><a href="index.php?path=includes/files/Presentation=' . urlencode($curFile) . '">Download</a></p>';
+        } else {
+            echo "<p>" . $curFile . "</p><br />";
+            echo '<img src="./img/files.png" width="80" alt="'. $directory."/" . $curFile . '" class="img"><br>';
+
         }
     }
     echo "</div>";
@@ -101,13 +118,13 @@
     $workingDir = opendir($directory);
 
     echo "<div class='contentDow Plan'>";
-    echo "<h3>Meeting techniques</h3>";
+    echo "<h3 class='idOfType'>Meeting techniques</h3>";
     while ($curFile = readdir($workingDir)) {
         if (substr($curFile, 0, 1) == '.') {
-        }else {
-            echo "<p>".$curFile . "</p><br />";
-            echo '<img src="./img/files.png" width="200" alt="' . $curFile . '" class="img"><br>';
-            echo '<p><a href="index.php?path=includes/files/meetings=' . urlencode($curFile) . '">Download</a></p>';
+        } else {
+            echo "<p>" . $curFile . "</p><br />";
+            echo '<img src="./img/files.png" width="80" alt="'. $directory."/" . $curFile . '" class="img"><br>';
+
         }
     }
     echo "</div>";
