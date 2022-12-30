@@ -9,7 +9,7 @@
     <script src='.'></script>
 </head>
 <body>
-<div id="content">
+
 <header>
     <?php
     //including tha nav bar once in the index page so it stays here for the rest of the pages
@@ -44,7 +44,7 @@ if ($page ==="Home"){
 
 
 ?>
-</div>
+
 </body>
 <!--
 <footer>

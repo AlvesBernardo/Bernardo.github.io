@@ -118,15 +118,32 @@ header {
 
 
 /* download page*/
-#donwloadPage > *{
-  color: white;
+.idDown {
+  text-align: center;
+  font-size: 3vw;
+  display: flex;
+  grid-column: 3/5;
+
 }
 
-.img {
-  -webkit-filter: invert(100%); /* Safari/Chrome */
-  filter: invert(100%);
+.text {
+  font-size: 1vw;
+  display: flex;
+  grid-column: 3/5;
+}
+#donwloadPage {
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+}
+#donwloadPage > *{
+  color: #E6E7ED ;
+
 }
 
 .contentDow {
   margin-top: 2vw;
+  display: flex;
+  grid-column: 2/6;
+  background-color: #B5B6BC;
+  border-radius: 2%;
 }
