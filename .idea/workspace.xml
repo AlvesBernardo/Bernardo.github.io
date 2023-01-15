@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f003798d-ea96-4b7d-afe1-77387f293bdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/includes/files/myGivenFeedback/Feedback for Ayo from Bernardo.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/files/myGivenFeedback/Feedback for Caterina from Bernardo.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/files/myGivenFeedback/Feedback for Haken from Bernardo.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/files/myGivenFeedback/Feedback for Paul from Bernardo.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/files/myGivenFeedback/Feedback for Rares from Bernardo.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/files/myGivenFeedback/Feedback for Zsombor from Beyza.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/donwload.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/donwload.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +42,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../wamp64/www/Porfolio" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\berna\Documents\Portfolio\Portfolio\includes\files\Period Planners" />
       <recent name="C:\Users\berna\Documents\Portfolio\Portfolio\includes\files" />
       <recent name="C:\Users\berna\Documents\Portfolio\Portfolio\includes\files\myGivenFeedback" />
     </key>
@@ -64,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673803736559</updated>
-      <workItem from="1673803737639" duration="848000" />
+      <workItem from="1673803737639" duration="1535000" />
     </task>
     <servers />
   </component>
@@ -81,5 +77,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Deployment" timestamp="1673804829020">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1673804829020" />
+    <state x="637" y="201" key="#Options" timestamp="1673804809035">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="637" y="201" key="#Options/0.0.1920.1040@0.0.1920.1040" timestamp="1673804809035" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1673804827821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1673804827821" />
   </component>
 </project>
