@@ -151,6 +151,7 @@ header {
   display: flex;
   grid-column: 3/5;
   justify-content: center;
+  color: white;
 
 }
 
@@ -159,6 +160,7 @@ header {
   display: flex;
   grid-column: 3/5;
   justify-content: center;
+  color: white;
 }
 #donwloadPage {
   display: grid;
