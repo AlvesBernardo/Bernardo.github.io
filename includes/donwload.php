@@ -1,3 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bernardo Potfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/styles.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+<header>
+
+    <nav class="navBar">
+        <ul class="pt-5">
+
+            <!-- "?" is for the get parameter in the index to navigate -->
+            <li><a href="index.php" class="link">Home</a></li>
+            <li><a href=includes/donwload.php class="link">Files</a></li>
+
+        </ul>
+    </nav>
+
+
+</header>
+
 <script>
 
     //preparing the jquery
